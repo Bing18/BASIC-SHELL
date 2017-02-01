@@ -1,0 +1,34 @@
+=>Author:Rahul Bandari
+=>Date: 27-9-2016
+=>SIMPLE SHELL DESCRIPTION.
+=>executable generated after makefile is SHELL.
+=>Corresponding files->
+	main.c=>main file includes for pwd,echo,etc.
+	lets_echo.c=>for built-in commands(header1.h)
+	call_back.c=>for background processes(header2.h)
+	p_info.c=>for pinfo(header3.h)
+	ch_dir.c=>for cd command(header.h)
+	prompt.c=>for getting the prompt(header4.h)
+	redirection.c=>for checking redirection(only works for system commands).(header5.h)
+	piping.c=>for checking whether piping works and if its present,it executes it(header6.h)
+	Makefile=>for make command...
+=>shell features->
+	supports ";" seperated commands
+	supports environment variables to be displayed using echo
+	supports cd command by taking the current present dir as home directory
+	supports of pushing processes background
+	we can know the exit status of any background processes present[BONUS]
+	prints the pinfo of the given process's pid [BONUS]
+	supports tab,spaces separated commands
+	supports any command except cd,pwd,echo with any argument of valid choice
+	supports redirection,piping,redirection with piping for only system commands.
+	supports user defined commands like kjob,jobs,fg,killallbg;
+	supports for the signal handling of the files.
+
+=>Steps to compile the code->
+	open the directory from which you wish to open the shell
+	now run make command from that directory
+	now run ./shell command from that directory
+	now a new prompt will appearing and that is the shell created
+	
+

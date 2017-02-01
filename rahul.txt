@@ -1,0 +1,6 @@
+3c3
+newmsdmcs;ls,
+< int lets_echo(char *arr[],int n);
+---
+> int call_ba
+ sd;lmvsdlmsneewnewck(char *arr[],int n);
